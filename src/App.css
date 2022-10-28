@@ -1,38 +1,113 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+  font-family: inter;
+  background-color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.profile-selection{
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 0px;
+  gap: 24px;
+  isolation: isolate;
+  width: 1152px;
+  height: 142px;
+  
+  
+}
+#twitter h3 a{
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
+  align-items:center;
+  width: 1152px;
+  height: 30px;
+  color: #101828;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  left: 65px;
+}
+
+.avatar__share{
+  width: 40px;
+  height: 40px;
+  border: 1px dashed #D0D5DD;
+  border-radius: 20px; 
+  position: absolute;
+  left: 904px;
+  top: 25px;
+}
+.container{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  padding: 0px;
+  gap: 24px;
+  width: 1152px;
+  height: 576px;
+  flex: none;
+  order: 1;
+  align-self: strech;
+  flex-grow: 0;
+  
+}
+#twitter__1{
+  display: flex;
+  flex-direction: row;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
+  padding: 40px 32px  ;
+  gap: 8px;
+  width: 1152px;
+  height: 43px;
+  background-color: #EAECF0;
+  border: 1px solid #EAECF0;
+  border-radius: 8px;
+  position: absolute;
+  left: 22px;
+  
 }
+#twitter__1 h3 a{
+  width: 151px;
+  height: 8px;
+  text-decoration: none;
+  color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 
-.App-link {
-  color: #61dafb;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#btn__zuri{
+ display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 24px 32px;
+gap: 8px;
+width: 1152px;
+height: 76px;
+background: #EAECF0;
+border: 1px solid #EAECF0;
+border-radius: 8px;
+position: absolute;
+top: 324px;
+left: 22px;
+}
+#btn__zuri h3 a{
+  width: 151px;
+  height: 8px;
+  text-decoration: none;
+  color: #101828;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  display: flex;
+  align-items: center;
+  text-align: center;
 }
