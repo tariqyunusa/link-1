@@ -6,6 +6,7 @@ import { Book } from './components/Book';
 import { BookPython } from './components/BookPython';
 import { Pitch } from './components/Pitch';
 import { BookDesign } from './components/BookDesign';
+import { SocialSection } from './components/SocialSection';
 
 
 
@@ -20,6 +21,7 @@ function App() {
       <BookPython />
       <Pitch />
       <BookDesign />
+      <SocialSection />
     </div>
     
     </div>
