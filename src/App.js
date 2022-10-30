@@ -7,6 +7,7 @@ import { BookPython } from './components/BookPython';
 import { Pitch } from './components/Pitch';
 import { BookDesign } from './components/BookDesign';
 import { SocialSection } from './components/SocialSection';
+import { Footer } from './components/Footer';
 
 
 
@@ -23,6 +24,7 @@ function App() {
       <BookDesign />
       <SocialSection />
     </div>
+    <Footer />
     
     </div>
   );
