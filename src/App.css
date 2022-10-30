@@ -3,6 +3,8 @@
 body{
   font-family: inter;
   background-color: #fff;
+
+
 }
 
 .profile-selection{
@@ -28,7 +30,7 @@ body{
   text-align: center;
   text-decoration: none;
   position: absolute;
-  left: 65px;
+  left: 85px;
 }
 
 .avatar__share{
@@ -47,11 +49,15 @@ body{
   padding: 0px;
   gap: 24px;
   width: 1152px;
-  
   flex: none;
   order: 1;
   align-self: strech;
   flex-grow: 0;
+  position: absolute;
+  top: 164px;
+  width: 1152px;
+height: 576px;
+  
   
 }
 #twitter__1{
@@ -68,6 +74,7 @@ body{
   border-radius: 8px;
   position: absolute;
   left: 22px;
+  top: 159px;
   
 }
 #twitter__1 h3 a{
@@ -237,3 +244,4 @@ left: 22px;
   position: absolute;
   left: 550px;
 }
+

@@ -7,15 +7,16 @@ export const ProfileSelection = () => {
   return (
     <div className='profile-selection'>
         <div id='profile__img'>
-            <img src="" />
+            <img src="Banner.jpg" heignt={88} width={88} />
         </div>
         <div id='twitter'>
             <h3><a href="http://">Annette Black</a></h3>
+            <h4 id='slack'>Tariq</h4>
         </div>
          <div className='avatar__share'>
          <FaShare 
          className='icon-1'
-         style={{position:'absolute',
+         style={{position:'absolute', 
          width: '15.19px',
           height: '14.02px',
           left:'40.5%',
