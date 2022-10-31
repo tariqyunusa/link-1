@@ -1,0 +1,36 @@
+import React from 'react';
+import { FaShare } from "react-icons/fa";
+
+
+
+export const ProfileSelection = () => {
+  return (
+    <div className='profile-selection'>
+        <div id='profile__img'>
+            <img  className='profile-img' src="Banner.jpg" heignt={88} width={88} style={{position: 'absolute',
+                                                                    top: '28px',
+                                                                    left: '617px',}} />
+        </div>
+        <div id='twitter'>
+            <h3><a href="http://">Annette Black</a></h3>
+            
+        </div>
+         <div className='avatar__share'>
+         <FaShare 
+         className='icon-1'
+         style={{position:'absolute', 
+         width: '15.19px',
+          height: '14.02px',
+          left:'40.5%',
+          right:'40.53%',
+          top:'30.95%',
+          bottom:'14.95%',
+          color: 'rgba(152, 162, 179, 1)'
+        
+        }
+
+         }/>
+         </div>
+    </div>
+  )
+}
