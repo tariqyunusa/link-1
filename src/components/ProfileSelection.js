@@ -8,7 +8,7 @@ export const ProfileSelection = () => {
   return (
     <div className='profile-selection'>
         <div id='profile__img'>
-            <img src="Banner.jpg" className="profile_img"   />
+            <img src="/Banner.jpg" className="profile_img"   />
         </div>
         <div id='twitter'>
             <h3><a href="http://">Annette Black</a></h3>
