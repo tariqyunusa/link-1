@@ -1,5 +1,6 @@
 import React from 'react';
 import { FaShare } from "react-icons/fa";
+import { FaEllipsisH } from "react-icons/fa"
 
 
 
@@ -14,20 +15,8 @@ export const ProfileSelection = () => {
             
         </div>
          <div className='avatar__share'>
-         <FaShare 
-         className='icon-1'
-         style={{position:'absolute', 
-         width: '15.19px',
-          height: '14.02px',
-          left:'40.5%',
-          right:'40.53%',
-          top:'30.95%',
-          bottom:'14.95%',
-          color: 'rgba(152, 162, 179, 1)'
-        
-        }
-
-         }/>
+         <FaShare className='icon-1'/>
+         <FaEllipsisH  className='icon-2'/>
          </div>
     </div>
   )
