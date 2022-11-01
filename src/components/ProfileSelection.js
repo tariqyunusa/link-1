@@ -7,9 +7,7 @@ export const ProfileSelection = () => {
   return (
     <div className='profile-selection'>
         <div id='profile__img'>
-            <img src="Banner.jpg" heignt={88} width={88} style={{position: 'absolute',
-                                                                    top: '28px',
-                                                                    left: '617px',}} />
+            <img src="Banner.jpg" className="profile_img"   />
         </div>
         <div id='twitter'>
             <h3><a href="http://">Annette Black</a></h3>
