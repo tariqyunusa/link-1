@@ -251,6 +251,36 @@ body {
     position: absolute;
     left: 550px;
   }
+  #contact{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 32px;
+    gap: 8px;
+    width: 1152px;
+    height: 76px;
+    background: #eaecf0;
+    border: 1px solid #eaecf0;
+    border-radius: 8px;
+    position: absolute;
+    top: 1028px;
+    left: 22px;
+  }
+  #contact h3{
+     width: 351px;
+    height: 8px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: absolute;
+    left: 550px;
+  }
   #slack h4 {
     display: none;
   }

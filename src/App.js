@@ -8,6 +8,7 @@ import { Pitch } from "./components/Pitch";
 import { BookDesign } from "./components/BookDesign";
 import { SocialSection } from "./components/SocialSection";
 import { Footer } from "./components/Footer";
+import { Contact } from "./components/Contact";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <BookPython />
         <Pitch />
         <BookDesign />
+        <Contact />
         <SocialSection />
       </div>
       <Footer />
