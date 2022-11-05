@@ -2,10 +2,10 @@ import React from 'react'
 
 export const Contact = () => {
   return (
-    <a href="http://">
-         <div id='contact'>
-            <h3>Contact Me</h3>
-         </div>
-    </a>
+    <div className='contact__form'>
+        <h2  id='contact__me'>Contact Me</h2>
+        <h4 id='header_contact'>Hi there, contact me to ask me about anything you have in mind.</h4>
+        
+    </div>
   )
 }

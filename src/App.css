@@ -371,6 +371,34 @@ body {
     top: 23px;
     left: 665px;
   }
+  .contact__form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 720px;
+    height: 616px;
+    margin: 0 auto;
+  }
+  #contact__me{
+    width: 448px;
+    height: 44px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 44px;
+    letter-spacing: -0.02em;
+    color: #101828;
+  }
+  #header_contact{
+    width: 720px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #475467;
+  }
 }
 
 @media only screen and (max-width: 500px) {
